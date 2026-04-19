@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sullyweb</title>
+</head>
+<body>
+    <div class="tabs">
+        <button class="tab" onclick="openTab(event, 'home')">Home</button>
+        <button class="tab" onclick="openTab(event, 'world')">World</button>
+        <button class="tab" onclick="openTab(event, 'rules')">Rules</button>
+    </div>
+    <div id="home" class="tabcontent">
+        <h1>Welcome to Sullyweb!</h1>
+    </div>
+    <div id="world" class="tabcontent" style="display:none;">
+        <h2>World Information</h2>
+    </div>
+    <div id="rules" class="tabcontent" style="display:none;">
+        <h2>Game Rules</h2>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
